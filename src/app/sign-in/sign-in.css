@@ -1,0 +1,10 @@
+label , input{
+    position: relative;
+    font-size: 20px;
+    width: 200px;
+    height: 30px;
+    color:  #191970;
+}
+th , td{
+    top: 500px;
+}

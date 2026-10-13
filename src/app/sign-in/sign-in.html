@@ -1,0 +1,28 @@
+<div class="border">
+    <h1 style="left:680px">Sign in</h1>
+    <label style="left: 400px; top: 200px;">id:</label>
+    <input style="left: 410px; top: 198px;" type="number" [(ngModel)]="id"/>
+    <label style="left: 550px; top: 200px;">firstName:</label>
+    <input style="left: 560px; top: 198px;" type="text" [(ngModel)]="firstName"/>
+    <label style="left: -180px; top: 300px;">lastName:</label>
+    <input style="left: -170px; top: 298px;" type="text" [(ngModel)]="lastName"/>
+    <label style="left: -65px;  top: 300px;">phoneNumber:</label>
+    <input style="left: -55px;  top: 298px;" type="number" [(ngModel)]="phoneNumber"/>
+    <label style="left: -790px; top: 400px;">birthday:</label>
+    <input style="left: -780px; top: 398px;" type="date" [(ngModel)]="birthday"/>
+    <tr>
+        <th>id:</th>
+        <th>firstName:</th>
+        <th>lastName:</th>
+        <th>phoneNumber:</th>
+        <th>birthday:</th>
+    </tr>
+    <tr>
+        <td>{{id}}</td>
+        <td>{{firstName}}</td>
+        <td>{{lastName}}</td>
+        <td>{{phoneNumber}}</td>
+        <td>{{birthday}}</td>
+    </tr>
+
+</div>

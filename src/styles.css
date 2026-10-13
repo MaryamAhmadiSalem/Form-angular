@@ -1,0 +1,24 @@
+.border{
+   position: relative;
+   width: 1520px;
+   height: 720px;
+   border: 1px solid #E0FFFF;
+   background-color: #E0FFFF;
+}
+h1{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    color: #191970;
+    font-style: italic;
+}
+th , td{
+    position: relative;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    padding-top: 25px;
+    top: 250px;
+    left: 250px;
+    border: 1px solid #191970;
+}
